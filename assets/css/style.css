@@ -8,10 +8,7 @@
     z-index: 1;
     opacity: 1;
   }
-  h4 {
-    text-align: center;
-    color: white;
-  }
+  
 
   html {
   font-family: sans-serif;
@@ -7008,3 +7005,7 @@ a.list-group-item-danger.active:focus {
 .popover-title {
   border: none;
 }
+h4 {
+    text-align: center;
+    color: white;
+  }
