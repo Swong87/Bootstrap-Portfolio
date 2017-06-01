@@ -1,12 +1,16 @@
 .bgHead {
-    background: url(../images/bg.jpg) no-repeat center center scroll;
-    padding: 150px 0;
-    opacity: 0.6;
-    z-index: 0;
+    overflow: hidden;
+    background: #4B4848;
+    background-size: cover;
+    background-image: url(../images/bg.jpg);
   }
   .container {
     z-index: 1;
     opacity: 1;
+  }
+  .move {
+    margin-top: 2000px;
+    margin-bottom: 0;
   }
   
 
@@ -4961,7 +4965,6 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #4e5d6c;
 }
 .jumbotron h1,
 .jumbotron .h1 {
